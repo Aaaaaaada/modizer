@@ -115,7 +115,7 @@ int optLAZYUSF_ResampleQuality=1;
 
 extern "C" {
     //VGMSTREAM
-#import "../../vgmstream/vgmstream.h"
+#import "../../vgmstream/vgmstream/vgmstream/vgmstream.h"
     
     static VGMSTREAM* vgmStream = NULL;
     static STREAMFILE* vgmFile = NULL;
@@ -127,7 +127,7 @@ extern "C" {
     static volatile int mVGMSTREAM_total_samples,mVGMSTREAM_seek_needed_samples,mVGMSTREAM_decode_pos_samples;
     
     //xmp
-#include "xmp.h"
+#include "../../modizer/libxmp/libxmp-master/include/xmp.h"
     static xmp_context xmp_ctx;
     static struct xmp_module_info xmp_mi;
 }

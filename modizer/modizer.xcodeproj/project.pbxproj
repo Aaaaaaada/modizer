@@ -1092,6 +1092,13 @@
 			remoteGlobalIDString = 595F9C081E54B906009DBEED;
 			remoteInfo = libxmp;
 		};
+		60192238211014AE008BDEC8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 59321DD01E2560B200020079 /* vgmstream.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 59321B441E24CB8B00020079;
+			remoteInfo = vgmstream;
+		};
 		CC1343731AC17B3A00CAB284 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = CC13436F1AC17B3900CAB284 /* vgmplay.xcodeproj */;
@@ -1753,7 +1760,6 @@
 		50819A2514B3E06F0062FA86 /* util.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = util.cpp; sourceTree = "<group>"; };
 		50819A2614B3E06F0062FA86 /* util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = util.h; sourceTree = "<group>"; };
 		590ED7081E22CDDD00802D4C /* libopenmpt.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = libopenmpt.xcodeproj; path = "../libopenmpt/openmpt-trunk/build/xcode4/libopenmpt.xcodeproj"; sourceTree = "<group>"; };
-		591FF53E1E5057E400D401D5 /* libmpg123-ios.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libmpg123-ios.a"; path = "../../../../../Library/Developer/Xcode/DerivedData/modizer-dttbdzihcururxdhsdqkyrwkkhzx/Build/Products/Release-iphonesimulator/libmpg123-ios.a"; sourceTree = "<group>"; };
 		591FF53F1E5057E400D401D5 /* libopenmpt-ogg.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libopenmpt-ogg.a"; path = "../libopenmpt/openmpt-trunk/build/lib/xcode4/x86_64/Debug/libopenmpt-ogg.a"; sourceTree = "<group>"; };
 		591FF5401E5057E400D401D5 /* libopenmpt-vorbis.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libopenmpt-vorbis.a"; path = "../libopenmpt/openmpt-trunk/build/lib/xcode4/x86_64/Debug/libopenmpt-vorbis.a"; sourceTree = "<group>"; };
 		591FF5411E5057E400D401D5 /* libopenmpt-zlib.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libopenmpt-zlib.a"; path = "../libopenmpt/openmpt-trunk/build/lib/xcode4/x86_64/Debug/libopenmpt-zlib.a"; sourceTree = "<group>"; };
@@ -1783,8 +1789,22 @@
 		59A6652F1E4B04E700EB110E /* txtMenu2d_2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = txtMenu2d_2x.png; sourceTree = "<group>"; };
 		59A665311E4B04E700EB110E /* txtMenu2e_2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = txtMenu2e_2x.png; sourceTree = "<group>"; };
 		59BE94A7203C134F009F0255 /* Castlevania 3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Castlevania 3.jpg"; path = "Resources/Samples2/Games/Castlevania 3.jpg"; sourceTree = SOURCE_ROOT; };
-		59E478B71E84FBBD00E94FC2 /* libopenmpt-vorbis.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libopenmpt-vorbis.a"; path = "../libopenmpt/openmpt-trunk/build/lib/xcode4/x86_64/Release/libopenmpt-vorbis.a"; sourceTree = "<group>"; };
 		59F281441E5B5A11000B7A4C /* Castlevania 3.nsfe */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Castlevania 3.nsfe"; path = "Resources/Samples2/Games/Castlevania 3.nsfe"; sourceTree = SOURCE_ROOT; };
+		60192260211017E3008BDEC8 /* libTapkuLibrary.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libTapkuLibrary.a; path = "../../../../Library/Developer/Xcode/DerivedData/modizer-dixmmydbnaujzjcxexsukmpdbpwy/Build/Products/Debug-iphoneos/libTapkuLibrary.a"; sourceTree = "<group>"; };
+		60192261211017E3008BDEC8 /* liblibtim.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = liblibtim.a; path = "../../../../Library/Developer/Xcode/DerivedData/modizer-dixmmydbnaujzjcxexsukmpdbpwy/Build/Products/Debug-iphoneos/liblibtim.a"; sourceTree = "<group>"; };
+		60192262211017E3008BDEC8 /* liblibLazyusf.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = liblibLazyusf.a; path = "../../../../Library/Developer/Xcode/DerivedData/modizer-dixmmydbnaujzjcxexsukmpdbpwy/Build/Products/Debug-iphoneos/liblibLazyusf.a"; sourceTree = "<group>"; };
+		60192263211017E4008BDEC8 /* libvgmplay.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libvgmplay.a; path = "../../../../Library/Developer/Xcode/DerivedData/modizer-dixmmydbnaujzjcxexsukmpdbpwy/Build/Products/Debug-iphoneos/libvgmplay.a"; sourceTree = "<group>"; };
+		60192264211017E4008BDEC8 /* liblibgme.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = liblibgme.a; path = "../../../../Library/Developer/Xcode/DerivedData/modizer-dixmmydbnaujzjcxexsukmpdbpwy/Build/Products/Debug-iphoneos/liblibgme.a"; sourceTree = "<group>"; };
+		60192265211017E4008BDEC8 /* liblibxmp.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = liblibxmp.a; path = "../../../../Library/Developer/Xcode/DerivedData/modizer-dixmmydbnaujzjcxexsukmpdbpwy/Build/Products/Debug-iphoneos/liblibxmp.a"; sourceTree = "<group>"; };
+		60192266211017E4008BDEC8 /* libdumb.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libdumb.a; path = "../../../../Library/Developer/Xcode/DerivedData/modizer-dixmmydbnaujzjcxexsukmpdbpwy/Build/Products/Debug-iphoneos/libdumb.a"; sourceTree = "<group>"; };
+		60192267211017E4008BDEC8 /* libmpg123-ios.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libmpg123-ios.a"; path = "../../../../Library/Developer/Xcode/DerivedData/modizer-dixmmydbnaujzjcxexsukmpdbpwy/Build/Products/Debug-iphoneos/libmpg123-ios.a"; sourceTree = "<group>"; };
+		60192268211017E4008BDEC8 /* libsidplayfp.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libsidplayfp.a; path = "../../../../Library/Developer/Xcode/DerivedData/modizer-dixmmydbnaujzjcxexsukmpdbpwy/Build/Products/Debug-iphoneos/libsidplayfp.a"; sourceTree = "<group>"; };
+		60192269211017E4008BDEC8 /* libvgmstream.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libvgmstream.a; path = "../../../../Library/Developer/Xcode/DerivedData/modizer-dixmmydbnaujzjcxexsukmpdbpwy/Build/Products/Debug-iphoneos/libvgmstream.a"; sourceTree = "<group>"; };
+		6019226A211017E5008BDEC8 /* liblibxsf.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = liblibxsf.a; path = "../../../../Library/Developer/Xcode/DerivedData/modizer-dixmmydbnaujzjcxexsukmpdbpwy/Build/Products/Debug-iphoneos/liblibxsf.a"; sourceTree = "<group>"; };
+		6019226B211017E5008BDEC8 /* liblibsidplay1.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = liblibsidplay1.a; path = "../../../../Library/Developer/Xcode/DerivedData/modizer-dixmmydbnaujzjcxexsukmpdbpwy/Build/Products/Debug-iphoneos/liblibsidplay1.a"; sourceTree = "<group>"; };
+		6019226C211017E5008BDEC8 /* liblibgsf.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = liblibgsf.a; path = "../../../../Library/Developer/Xcode/DerivedData/modizer-dixmmydbnaujzjcxexsukmpdbpwy/Build/Products/Debug-iphoneos/liblibgsf.a"; sourceTree = "<group>"; };
+		6019226D211017E5008BDEC8 /* liblibFileExtractor.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = liblibFileExtractor.a; path = "../../../../Library/Developer/Xcode/DerivedData/modizer-dixmmydbnaujzjcxexsukmpdbpwy/Build/Products/Debug-iphoneos/liblibFileExtractor.a"; sourceTree = "<group>"; };
+		6019226E211017E5008BDEC8 /* liblibresample.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = liblibresample.a; path = "../../../../Library/Developer/Xcode/DerivedData/modizer-dixmmydbnaujzjcxexsukmpdbpwy/Build/Products/Debug-iphoneos/liblibresample.a"; sourceTree = "<group>"; };
 		CC03F2CB12160E9500F2AC65 /* button-highlight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button-highlight.png"; sourceTree = "<group>"; };
 		CC03F2CC12160E9500F2AC65 /* button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button.png; sourceTree = "<group>"; };
 		CC03F2D512160FE000F2AC65 /* buttonB-highlight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "buttonB-highlight.png"; sourceTree = "<group>"; };
@@ -2464,7 +2484,7 @@
 		CC6CBDF417DC615F006DCBC7 /* EQView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EQView.h; sourceTree = "<group>"; };
 		CC6CBDF517DC615F006DCBC7 /* EQView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EQView.m; sourceTree = "<group>"; };
 		CC7E810112698C29006EF083 /* previous.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = previous.png; sourceTree = "<group>"; };
-		CC7FC83D126B707200156FB3 /* databaseMAIN.modizerdb */ = {isa = PBXFileReference; lastKnownFileType = file; path = databaseMAIN.modizerdb; sourceTree = "<group>"; };
+		CC7FC83D126B707200156FB3 /* databaseMAIN.modizerdb */ = {isa = PBXFileReference; lastKnownFileType = file; name = databaseMAIN.modizerdb; path = /Users/ada/Documents/MuseProject/modizer/modizer/Resources/DB/databaseMAIN.modizerdb; sourceTree = "<absolute>"; };
 		CC7FC85B126B760400156FB3 /* database.modizerdb */ = {isa = PBXFileReference; lastKnownFileType = file; path = database.modizerdb; sourceTree = "<group>"; };
 		CC88D1131270AF200004EBBE /* modizer-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "modizer-Info.plist"; sourceTree = "<group>"; };
 		CC8A8D3C17F9FF5500A56E0C /* Icon-76.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-76.png"; sourceTree = "<group>"; };
@@ -2994,8 +3014,21 @@
 		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				59E478B71E84FBBD00E94FC2 /* libopenmpt-vorbis.a */,
-				591FF53E1E5057E400D401D5 /* libmpg123-ios.a */,
+				60192266211017E4008BDEC8 /* libdumb.a */,
+				6019226D211017E5008BDEC8 /* liblibFileExtractor.a */,
+				60192264211017E4008BDEC8 /* liblibgme.a */,
+				6019226C211017E5008BDEC8 /* liblibgsf.a */,
+				60192262211017E3008BDEC8 /* liblibLazyusf.a */,
+				6019226E211017E5008BDEC8 /* liblibresample.a */,
+				6019226B211017E5008BDEC8 /* liblibsidplay1.a */,
+				60192261211017E3008BDEC8 /* liblibtim.a */,
+				60192265211017E4008BDEC8 /* liblibxmp.a */,
+				6019226A211017E5008BDEC8 /* liblibxsf.a */,
+				60192267211017E4008BDEC8 /* libmpg123-ios.a */,
+				60192268211017E4008BDEC8 /* libsidplayfp.a */,
+				60192260211017E3008BDEC8 /* libTapkuLibrary.a */,
+				60192263211017E4008BDEC8 /* libvgmplay.a */,
+				60192269211017E4008BDEC8 /* libvgmstream.a */,
 				591FF53F1E5057E400D401D5 /* libopenmpt-ogg.a */,
 				591FF5401E5057E400D401D5 /* libopenmpt-vorbis.a */,
 				591FF5411E5057E400D401D5 /* libopenmpt-zlib.a */,
@@ -5206,8 +5239,8 @@
 				CC9167F117EFA6FA0012E2C1 /* Classical */,
 			);
 			name = Samples2;
-			path = Samples;
-			sourceTree = "<group>";
+			path = /Users/ada/Documents/MuseProject/modizer/modizer/Resources/Samples2;
+			sourceTree = "<absolute>";
 		};
 		CCBF0FF91221788200E8DE4E /* STSound */ = {
 			isa = PBXGroup;
@@ -5542,6 +5575,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				60192239211014AE008BDEC8 /* PBXTargetDependency */,
 				332F75521429195E00600019 /* PBXTargetDependency */,
 				332F75501429195A00600019 /* PBXTargetDependency */,
 				332F754E1429195500600019 /* PBXTargetDependency */,
@@ -5564,7 +5598,7 @@
 				LastUpgradeCheck = 0720;
 				TargetAttributes = {
 					1D6058900D05DD3D006BFB54 = {
-						DevelopmentTeam = ZV46EUY73C;
+						DevelopmentTeam = 4GPP9987AF;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -6537,6 +6571,11 @@
 			name = TapkuLibrary;
 			targetProxy = 33C7397A13A0ACEA0012221C /* PBXContainerItemProxy */;
 		};
+		60192239211014AE008BDEC8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = vgmstream;
+			targetProxy = 60192238211014AE008BDEC8 /* PBXContainerItemProxy */;
+		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
@@ -6572,7 +6611,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
-				DEVELOPMENT_TEAM = ZV46EUY73C;
+				DEVELOPMENT_TEAM = 4GPP9987AF;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
@@ -6585,29 +6624,15 @@
 				HEADER_SEARCH_PATHS = "";
 				INFOPLIST_FILE = "modizer-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"\"$(SRCROOT)/asap-2.1.2/win32/bass\"",
-					"\"$(SRCROOT)/../../../../Library/Developer/Xcode/DerivedData/libgsf-binfcpiwhuepmgcxhjvwsfpwozex/Build/Products/Debug-iphoneos\"",
-					"\"$(SRCROOT)/../../../../Library/Developer/Xcode/DerivedData/libgsf-binfcpiwhuepmgcxhjvwsfpwozex/Build/Products/Release-iphoneos\"",
-					"\"$(SRCROOT)/../../../../Library/Developer/Xcode/DerivedData/modizer-ewutdrprzhzobpehilyynkpuyhkd/Build/Products/Release-iphoneos\"",
-					"\"$(SRCROOT)/../../../../Library/Developer/Xcode/DerivedData/timidity-bpysqhjfftpcwddzpyetxenbgpde/Build/Products/Release-iphonesimulator\"",
-					"\"$(SRCROOT)/../../../../Library/Developer/Xcode/DerivedData/timidity-bpysqhjfftpcwddzpyetxenbgpde/Build/Products/Debug-iphonesimulator\"",
-					"\"$(SRCROOT)/../../../../Library/Developer/Xcode/DerivedData/timidity-bpysqhjfftpcwddzpyetxenbgpde/Build/Products/Debug-iphoneos\"",
-					"\"$(SRCROOT)/../../../../Library/Developer/Xcode/DerivedData/libgme-atjusmvlwaaasocyozwfnmzcavmb/Build/Products/Release-iphoneos\"",
-					"\"$(SRCROOT)\"",
-					"\"$(SRCROOT)/../../../../Library/Developer/Xcode/DerivedData/modizer-ewutdrprzhzobpehilyynkpuyhkd/Build/Products/Debug-iphoneos\"",
-					"\"$(SRCROOT)/../../../../../Library/Developer/Xcode/DerivedData/modizerws-djikcqenfakshqfxajwtzatnvpau/Build/Products/Release-iphoneos\"",
-					"\"$(SRCROOT)/../../../../../Library/Developer/Xcode/DerivedData/modizerws-djikcqenfakshqfxajwtzatnvpau/Build/Products/Debug-iphoneos\"",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.yoyofr.modizer;
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = ada.modizer;
 				PRODUCT_NAME = modizer;
 				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = NO;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				USER_HEADER_SEARCH_PATHS = "uade-2.13/** /Users/yohannmagnien/Documents/dev/iphone/modizer/node-lame-master/deps/mpg123/ports/Xcode/ /Users/yohannmagnien/Documents/dev/iphone/modizer/libopenmpt/openmpt-trunk/include/vorbis/include /Users/yohannmagnien/Documents/dev/iphone/modizer/libopenmpt/openmpt-trunk/include/ogg/include /Users/yohannmagnien/Documents/dev/iphone/modizer/libxsf/src/in_xsf_framework /Users/yohannmagnien/Documents/dev/iphone/modizer/libxsf/src/in_ncsf /Users/yohannmagnien/Documents/dev/iphone/modizer/lib2sf /Users/yohannmagnien/Documents/dev/iphone/modizer/libxsf/src/in_2sf /Users/yohannmagnien/Documents/dev/iphone/modizer/modizer/SESlideTableViewCell/lib /Users/yohannmagnien/Documents/dev/iphone/modizer/modizer/libxmp/libxmp-master/include";
+				USER_HEADER_SEARCH_PATHS = "uade-2.13/** ../node-lame-master/deps/mpg123/ports/Xcode/ ../libopenmpt/openmpt-trunk/include/vorbis/include ../libopenmpt/openmpt-trunk/include/ogg/include ../libxsf/src/in_xsf_framework ../libxsf/src/in_ncsf ../modizer/lib2sf ../modizer/libxsf/src/in_2sf ../modizer/modizer/SESlideTableViewCell/lib ../modizer/modizer/libxmp/libxmp-master/include";
 			};
 			name = Debug;
 		};
@@ -6620,7 +6645,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
-				DEVELOPMENT_TEAM = ZV46EUY73C;
+				DEVELOPMENT_TEAM = 4GPP9987AF;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_OPTIMIZATION_LEVEL = s;
@@ -6632,34 +6657,20 @@
 				HEADER_SEARCH_PATHS = "";
 				INFOPLIST_FILE = "modizer-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"\"$(SRCROOT)/asap-2.1.2/win32/bass\"",
-					"\"$(SRCROOT)/../../../../Library/Developer/Xcode/DerivedData/libgsf-binfcpiwhuepmgcxhjvwsfpwozex/Build/Products/Debug-iphoneos\"",
-					"\"$(SRCROOT)/../../../../Library/Developer/Xcode/DerivedData/libgsf-binfcpiwhuepmgcxhjvwsfpwozex/Build/Products/Release-iphoneos\"",
-					"\"$(SRCROOT)/../../../../Library/Developer/Xcode/DerivedData/modizer-ewutdrprzhzobpehilyynkpuyhkd/Build/Products/Release-iphoneos\"",
-					"\"$(SRCROOT)/../../../../Library/Developer/Xcode/DerivedData/timidity-bpysqhjfftpcwddzpyetxenbgpde/Build/Products/Release-iphonesimulator\"",
-					"\"$(SRCROOT)/../../../../Library/Developer/Xcode/DerivedData/timidity-bpysqhjfftpcwddzpyetxenbgpde/Build/Products/Debug-iphonesimulator\"",
-					"\"$(SRCROOT)/../../../../Library/Developer/Xcode/DerivedData/timidity-bpysqhjfftpcwddzpyetxenbgpde/Build/Products/Debug-iphoneos\"",
-					"\"$(SRCROOT)/../../../../Library/Developer/Xcode/DerivedData/libgme-atjusmvlwaaasocyozwfnmzcavmb/Build/Products/Release-iphoneos\"",
-					"\"$(SRCROOT)\"",
-					"\"$(SRCROOT)/../../../../Library/Developer/Xcode/DerivedData/modizer-ewutdrprzhzobpehilyynkpuyhkd/Build/Products/Debug-iphoneos\"",
-					"\"$(SRCROOT)/../../../../../Library/Developer/Xcode/DerivedData/modizerws-djikcqenfakshqfxajwtzatnvpau/Build/Products/Release-iphoneos\"",
-					"\"$(SRCROOT)/../../../../../Library/Developer/Xcode/DerivedData/modizerws-djikcqenfakshqfxajwtzatnvpau/Build/Products/Debug-iphoneos\"",
-				);
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				ONLY_ACTIVE_ARCH = NO;
 				OTHER_CFLAGS = (
 					"-DNS_BLOCK_ASSERTIONS=1",
 					"-mfpu=neon",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.yoyofr.modizer;
+				PRODUCT_BUNDLE_IDENTIFIER = ada.modizer;
 				PRODUCT_NAME = modizer;
 				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = NO;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				USER_HEADER_SEARCH_PATHS = "uade-2.13/** /Users/yohannmagnien/Documents/dev/iphone/modizer/node-lame-master/deps/mpg123/ports/Xcode/ /Users/yohannmagnien/Documents/dev/iphone/modizer/libopenmpt/openmpt-trunk/include/vorbis/include /Users/yohannmagnien/Documents/dev/iphone/modizer/libopenmpt/openmpt-trunk/include/ogg/include /Users/yohannmagnien/Documents/dev/iphone/modizer/libxsf/src/in_xsf_framework /Users/yohannmagnien/Documents/dev/iphone/modizer/libxsf/src/in_ncsf /Users/yohannmagnien/Documents/dev/iphone/modizer/lib2sf /Users/yohannmagnien/Documents/dev/iphone/modizer/libxsf/src/in_2sf /Users/yohannmagnien/Documents/dev/iphone/modizer/modizer/SESlideTableViewCell/lib /Users/yohannmagnien/Documents/dev/iphone/modizer/modizer/libxmp/libxmp-master/include";
+				USER_HEADER_SEARCH_PATHS = "uade-2.13/** ../node-lame-master/deps/mpg123/ports/Xcode/ ../libopenmpt/openmpt-trunk/include/vorbis/include ../libopenmpt/openmpt-trunk/include/ogg/include ../libxsf/src/in_xsf_framework ../libxsf/src/in_ncsf ../modizer/lib2sf ../modizer/libxsf/src/in_2sf ../modizer/modizer/SESlideTableViewCell/lib ../modizer/modizer/libxmp/libxmp-master/include";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -6795,7 +6806,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
-				DEVELOPMENT_TEAM = ZV46EUY73C;
+				DEVELOPMENT_TEAM = 4GPP9987AF;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_OPTIMIZATION_LEVEL = s;
@@ -6807,33 +6818,19 @@
 				HEADER_SEARCH_PATHS = "";
 				INFOPLIST_FILE = "modizer-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"\"$(SRCROOT)/asap-2.1.2/win32/bass\"",
-					"\"$(SRCROOT)/../../../../Library/Developer/Xcode/DerivedData/libgsf-binfcpiwhuepmgcxhjvwsfpwozex/Build/Products/Debug-iphoneos\"",
-					"\"$(SRCROOT)/../../../../Library/Developer/Xcode/DerivedData/libgsf-binfcpiwhuepmgcxhjvwsfpwozex/Build/Products/Release-iphoneos\"",
-					"\"$(SRCROOT)/../../../../Library/Developer/Xcode/DerivedData/modizer-ewutdrprzhzobpehilyynkpuyhkd/Build/Products/Release-iphoneos\"",
-					"\"$(SRCROOT)/../../../../Library/Developer/Xcode/DerivedData/timidity-bpysqhjfftpcwddzpyetxenbgpde/Build/Products/Release-iphonesimulator\"",
-					"\"$(SRCROOT)/../../../../Library/Developer/Xcode/DerivedData/timidity-bpysqhjfftpcwddzpyetxenbgpde/Build/Products/Debug-iphonesimulator\"",
-					"\"$(SRCROOT)/../../../../Library/Developer/Xcode/DerivedData/timidity-bpysqhjfftpcwddzpyetxenbgpde/Build/Products/Debug-iphoneos\"",
-					"\"$(SRCROOT)/../../../../Library/Developer/Xcode/DerivedData/libgme-atjusmvlwaaasocyozwfnmzcavmb/Build/Products/Release-iphoneos\"",
-					"\"$(SRCROOT)\"",
-					"\"$(SRCROOT)/../../../../Library/Developer/Xcode/DerivedData/modizer-ewutdrprzhzobpehilyynkpuyhkd/Build/Products/Debug-iphoneos\"",
-					"\"$(SRCROOT)/../../../../../Library/Developer/Xcode/DerivedData/modizerws-djikcqenfakshqfxajwtzatnvpau/Build/Products/Release-iphoneos\"",
-					"\"$(SRCROOT)/../../../../../Library/Developer/Xcode/DerivedData/modizerws-djikcqenfakshqfxajwtzatnvpau/Build/Products/Debug-iphoneos\"",
-				);
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				OTHER_CFLAGS = (
 					"-DNS_BLOCK_ASSERTIONS=1",
 					"-mfpu=neon",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.yoyofr.modizer;
+				PRODUCT_BUNDLE_IDENTIFIER = ada.modizer;
 				PRODUCT_NAME = modizer;
 				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = NO;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				USER_HEADER_SEARCH_PATHS = "uade-2.13/** /Users/yohannmagnien/Documents/dev/iphone/modizer/node-lame-master/deps/mpg123/ports/Xcode/ /Users/yohannmagnien/Documents/dev/iphone/modizer/libopenmpt/openmpt-trunk/include/vorbis/include /Users/yohannmagnien/Documents/dev/iphone/modizer/libopenmpt/openmpt-trunk/include/ogg/include /Users/yohannmagnien/Documents/dev/iphone/modizer/libxsf/src/in_xsf_framework /Users/yohannmagnien/Documents/dev/iphone/modizer/libxsf/src/in_ncsf /Users/yohannmagnien/Documents/dev/iphone/modizer/lib2sf /Users/yohannmagnien/Documents/dev/iphone/modizer/libxsf/src/in_2sf /Users/yohannmagnien/Documents/dev/iphone/modizer/modizer/SESlideTableViewCell/lib /Users/yohannmagnien/Documents/dev/iphone/modizer/modizer/libxmp/libxmp-master/include";
+				USER_HEADER_SEARCH_PATHS = "uade-2.13/** ../node-lame-master/deps/mpg123/ports/Xcode/ ../libopenmpt/openmpt-trunk/include/vorbis/include ../libopenmpt/openmpt-trunk/include/ogg/include ../libxsf/src/in_xsf_framework ../libxsf/src/in_ncsf ../modizer/lib2sf ../modizer/libxsf/src/in_2sf ../modizer/modizer/SESlideTableViewCell/lib ../modizer/modizer/libxmp/libxmp-master/include";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release_No64;
@@ -6887,7 +6884,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
-				DEVELOPMENT_TEAM = ZV46EUY73C;
+				DEVELOPMENT_TEAM = 4GPP9987AF;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -6898,26 +6895,12 @@
 				HEADER_SEARCH_PATHS = "";
 				INFOPLIST_FILE = "modizer-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"\"$(SRCROOT)/asap-2.1.2/win32/bass\"",
-					"\"$(SRCROOT)/../../../../Library/Developer/Xcode/DerivedData/libgsf-binfcpiwhuepmgcxhjvwsfpwozex/Build/Products/Debug-iphoneos\"",
-					"\"$(SRCROOT)/../../../../Library/Developer/Xcode/DerivedData/libgsf-binfcpiwhuepmgcxhjvwsfpwozex/Build/Products/Release-iphoneos\"",
-					"\"$(SRCROOT)/../../../../Library/Developer/Xcode/DerivedData/modizer-ewutdrprzhzobpehilyynkpuyhkd/Build/Products/Release-iphoneos\"",
-					"\"$(SRCROOT)/../../../../Library/Developer/Xcode/DerivedData/timidity-bpysqhjfftpcwddzpyetxenbgpde/Build/Products/Release-iphonesimulator\"",
-					"\"$(SRCROOT)/../../../../Library/Developer/Xcode/DerivedData/timidity-bpysqhjfftpcwddzpyetxenbgpde/Build/Products/Debug-iphonesimulator\"",
-					"\"$(SRCROOT)/../../../../Library/Developer/Xcode/DerivedData/timidity-bpysqhjfftpcwddzpyetxenbgpde/Build/Products/Debug-iphoneos\"",
-					"\"$(SRCROOT)/../../../../Library/Developer/Xcode/DerivedData/libgme-atjusmvlwaaasocyozwfnmzcavmb/Build/Products/Release-iphoneos\"",
-					"\"$(SRCROOT)\"",
-					"\"$(SRCROOT)/../../../../Library/Developer/Xcode/DerivedData/modizer-ewutdrprzhzobpehilyynkpuyhkd/Build/Products/Debug-iphoneos\"",
-					"\"$(SRCROOT)/../../../../../Library/Developer/Xcode/DerivedData/modizerws-djikcqenfakshqfxajwtzatnvpau/Build/Products/Release-iphoneos\"",
-					"\"$(SRCROOT)/../../../../../Library/Developer/Xcode/DerivedData/modizerws-djikcqenfakshqfxajwtzatnvpau/Build/Products/Debug-iphoneos\"",
-				);
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				OTHER_CFLAGS = (
 					"-DNS_BLOCK_ASSERTIONS=1",
 					"-mfpu=neon",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.yoyofr.modizer;
+				PRODUCT_BUNDLE_IDENTIFIER = ada.modizer;
 				PRODUCT_NAME = modizer;
 				PROVISIONING_PROFILE = "";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
@@ -6925,7 +6908,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = NO;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				USER_HEADER_SEARCH_PATHS = "uade-2.13/** /Users/yohannmagnien/Documents/dev/iphone/modizer/node-lame-master/deps/mpg123/ports/Xcode/ /Users/yohannmagnien/Documents/dev/iphone/modizer/libopenmpt/openmpt-trunk/include/vorbis/include /Users/yohannmagnien/Documents/dev/iphone/modizer/libopenmpt/openmpt-trunk/include/ogg/include /Users/yohannmagnien/Documents/dev/iphone/modizer/libxsf/src/in_xsf_framework /Users/yohannmagnien/Documents/dev/iphone/modizer/libxsf/src/in_ncsf /Users/yohannmagnien/Documents/dev/iphone/modizer/lib2sf /Users/yohannmagnien/Documents/dev/iphone/modizer/libxsf/src/in_2sf /Users/yohannmagnien/Documents/dev/iphone/modizer/modizer/SESlideTableViewCell/lib /Users/yohannmagnien/Documents/dev/iphone/modizer/modizer/libxmp/libxmp-master/include";
+				USER_HEADER_SEARCH_PATHS = "uade-2.13/** ../node-lame-master/deps/mpg123/ports/Xcode/ ../libopenmpt/openmpt-trunk/include/vorbis/include ../libopenmpt/openmpt-trunk/include/ogg/include ../libxsf/src/in_xsf_framework ../libxsf/src/in_ncsf ../modizer/lib2sf ../modizer/libxsf/src/in_2sf ../modizer/modizer/SESlideTableViewCell/lib ../modizer/modizer/libxmp/libxmp-master/include";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Distribution;
@@ -6979,7 +6962,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
-				DEVELOPMENT_TEAM = ZV46EUY73C;
+				DEVELOPMENT_TEAM = 4GPP9987AF;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -6990,26 +6973,12 @@
 				HEADER_SEARCH_PATHS = "";
 				INFOPLIST_FILE = "modizer-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"\"$(SRCROOT)/asap-2.1.2/win32/bass\"",
-					"\"$(SRCROOT)/../../../../Library/Developer/Xcode/DerivedData/libgsf-binfcpiwhuepmgcxhjvwsfpwozex/Build/Products/Debug-iphoneos\"",
-					"\"$(SRCROOT)/../../../../Library/Developer/Xcode/DerivedData/libgsf-binfcpiwhuepmgcxhjvwsfpwozex/Build/Products/Release-iphoneos\"",
-					"\"$(SRCROOT)/../../../../Library/Developer/Xcode/DerivedData/modizer-ewutdrprzhzobpehilyynkpuyhkd/Build/Products/Release-iphoneos\"",
-					"\"$(SRCROOT)/../../../../Library/Developer/Xcode/DerivedData/timidity-bpysqhjfftpcwddzpyetxenbgpde/Build/Products/Release-iphonesimulator\"",
-					"\"$(SRCROOT)/../../../../Library/Developer/Xcode/DerivedData/timidity-bpysqhjfftpcwddzpyetxenbgpde/Build/Products/Debug-iphonesimulator\"",
-					"\"$(SRCROOT)/../../../../Library/Developer/Xcode/DerivedData/timidity-bpysqhjfftpcwddzpyetxenbgpde/Build/Products/Debug-iphoneos\"",
-					"\"$(SRCROOT)/../../../../Library/Developer/Xcode/DerivedData/libgme-atjusmvlwaaasocyozwfnmzcavmb/Build/Products/Release-iphoneos\"",
-					"\"$(SRCROOT)\"",
-					"\"$(SRCROOT)/../../../../Library/Developer/Xcode/DerivedData/modizer-ewutdrprzhzobpehilyynkpuyhkd/Build/Products/Debug-iphoneos\"",
-					"\"$(SRCROOT)/../../../../../Library/Developer/Xcode/DerivedData/modizerws-djikcqenfakshqfxajwtzatnvpau/Build/Products/Release-iphoneos\"",
-					"\"$(SRCROOT)/../../../../../Library/Developer/Xcode/DerivedData/modizerws-djikcqenfakshqfxajwtzatnvpau/Build/Products/Debug-iphoneos\"",
-				);
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				OTHER_CFLAGS = (
 					"-DNS_BLOCK_ASSERTIONS=1",
 					"-mfpu=neon",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.yoyofr.modizer;
+				PRODUCT_BUNDLE_IDENTIFIER = ada.modizer;
 				PRODUCT_NAME = modizer;
 				PROVISIONING_PROFILE = "";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
@@ -7017,7 +6986,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = NO;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				USER_HEADER_SEARCH_PATHS = "uade-2.13/** /Users/yohannmagnien/Documents/dev/iphone/modizer/node-lame-master/deps/mpg123/ports/Xcode/ /Users/yohannmagnien/Documents/dev/iphone/modizer/libopenmpt/openmpt-trunk/include/vorbis/include /Users/yohannmagnien/Documents/dev/iphone/modizer/libopenmpt/openmpt-trunk/include/ogg/include /Users/yohannmagnien/Documents/dev/iphone/modizer/libxsf/src/in_xsf_framework /Users/yohannmagnien/Documents/dev/iphone/modizer/libxsf/src/in_ncsf /Users/yohannmagnien/Documents/dev/iphone/modizer/lib2sf /Users/yohannmagnien/Documents/dev/iphone/modizer/libxsf/src/in_2sf /Users/yohannmagnien/Documents/dev/iphone/modizer/modizer/SESlideTableViewCell/lib /Users/yohannmagnien/Documents/dev/iphone/modizer/modizer/libxmp/libxmp-master/include";
+				USER_HEADER_SEARCH_PATHS = "uade-2.13/** ../node-lame-master/deps/mpg123/ports/Xcode/ ../libopenmpt/openmpt-trunk/include/vorbis/include ../libopenmpt/openmpt-trunk/include/ogg/include ../libxsf/src/in_xsf_framework ../libxsf/src/in_ncsf ../modizer/lib2sf ../modizer/libxsf/src/in_2sf ../modizer/modizer/SESlideTableViewCell/lib ../modizer/modizer/libxmp/libxmp-master/include";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = "Distribution Beta";
